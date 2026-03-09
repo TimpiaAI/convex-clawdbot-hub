@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- Glow -->
+  <circle cx="256" cy="240" r="130" fill="url(#glow)"/>
+
+  <!-- Hub circle -->
+  <circle cx="256" cy="240" r="50" fill="none" stroke="url(#accent)" stroke-width="10"/>
+  <circle cx="256" cy="240" r="16" fill="#8b5cf6"/>
+
+  <!-- Spoke lines to gateway nodes -->
+  <line x1="256" y1="190" x2="256" y2="130" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+  <line x1="300" y1="215" x2="350" y2="175" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+  <line x1="300" y1="265" x2="350" y2="305" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+  <line x1="256" y1="290" x2="256" y2="350" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+  <line x1="212" y1="265" x2="162" y2="305" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+  <line x1="212" y1="215" x2="162" y2="175" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+
+  <!-- Gateway nodes -->
+  <circle cx="256" cy="120" r="18" fill="#8b5cf6"/>
+  <circle cx="360" cy="165" r="18" fill="#7c3aed"/>
+  <circle cx="360" cy="315" r="18" fill="#6d28d9"/>
+  <circle cx="256" cy="360" r="18" fill="#8b5cf6"/>
+  <circle cx="152" cy="315" r="18" fill="#7c3aed"/>
+  <circle cx="152" cy="165" r="18" fill="#6d28d9"/>
+
+  <!-- Small arrows on spokes (inbound indicators) -->
+  <polygon points="256,155 250,168 262,168" fill="#a78bfa" opacity="0.8"/>
+  <polygon points="330,190 322,200 334,202" fill="#a78bfa" opacity="0.8"/>
+  <polygon points="330,290 334,278 322,280" fill="#a78bfa" opacity="0.8"/>
+  <polygon points="256,325 262,312 250,312" fill="#a78bfa" opacity="0.8"/>
+  <polygon points="182,290 178,278 190,280" fill="#a78bfa" opacity="0.8"/>
+  <polygon points="182,190 190,200 178,202" fill="#a78bfa" opacity="0.8"/>
+
+  <!-- Chat bubble icon in center -->
+  <rect x="244" y="232" width="24" height="16" rx="4" fill="white" opacity="0.9"/>
+  <polygon points="252,248 256,256 260,248" fill="white" opacity="0.9"/>
+
+  <!-- Decorative dots -->
+  <circle cx="100" cy="100" r="3" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="420" cy="90" r="4" fill="#a78bfa" opacity="0.25"/>
+  <circle cx="430" cy="420" r="3" fill="#8b5cf6" opacity="0.2"/>
+  <circle cx="90" cy="400" r="4" fill="#a78bfa" opacity="0.2"/>
+</svg>

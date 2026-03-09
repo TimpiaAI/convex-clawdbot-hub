@@ -1,0 +1,67 @@
+{
+  "name": "convex-clawdbot-hub",
+  "version": "1.0.0",
+  "description": "Message hub component for ClawdBot — webhook processing, session management, conversation history, and multi-gateway support for Convex",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "module": "./dist/client/index.js",
+  "types": "./dist/client/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/client/index.d.ts",
+      "default": "./dist/client/index.js"
+    },
+    "./convex.config": {
+      "types": "./dist/component/convex.config.d.ts",
+      "default": "./dist/component/convex.config.js"
+    },
+    "./convex.config.js": {
+      "types": "./dist/component/convex.config.d.ts",
+      "default": "./dist/component/convex.config.js"
+    },
+    "./_generated/component.js": {
+      "types": "./dist/component/_generated/component.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "npm run build:esm && npm run build:component",
+    "build:esm": "tsc -p tsconfig.build.json",
+    "build:component": "tsc -p tsconfig.component.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "convex": "^1.24.0"
+  },
+  "devDependencies": {
+    "convex": "^1.32.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "convex",
+    "component",
+    "clawdbot",
+    "chatbot",
+    "message-hub",
+    "webhook",
+    "session-management",
+    "whatsapp",
+    "telegram",
+    "discord",
+    "multi-gateway",
+    "real-time"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimpiaAI/convex-clawdbot-hub.git"
+  },
+  "homepage": "https://github.com/TimpiaAI/convex-clawdbot-hub#readme",
+  "bugs": {
+    "url": "https://github.com/TimpiaAI/convex-clawdbot-hub/issues"
+  },
+  "author": "TimpiaAI"
+}
