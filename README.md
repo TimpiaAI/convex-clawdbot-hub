@@ -1,5 +1,7 @@
 # convex-clawdbot-hub
 
+[![Convex Component](https://www.convex.dev/components/badge/convex-clawdbot-hub)](https://www.convex.dev/components/convex-clawdbot-hub)
+
 Message hub backend for [ClawdBot](https://clawd.bot) — webhook processing, session management, conversation history, and multi-gateway support. Built as a [Convex Component](https://docs.convex.dev/components).
 
 ## Features
