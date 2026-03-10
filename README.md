@@ -203,7 +203,7 @@ const hub = new ClawdBotHub<string, string>(components.clawdbotHub);
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-blue?style=for-the-badge)](https://clawdbot-hub-demo.vercel.app)
 
-[![ClawdBot Hub Demo](./screenshot.png)](https://clawdbot-hub-demo.vercel.app)
+[![ClawdBot Hub Demo](https://raw.githubusercontent.com/TimpiaAI/convex-clawdbot-hub/main/screenshot.png)](https://clawdbot-hub-demo.vercel.app)
 
 [See the demo in action →](https://clawdbot-hub-demo.vercel.app)
 
