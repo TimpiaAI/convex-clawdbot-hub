@@ -1,6 +1,20 @@
+<div align="center">
+
 # convex-clawdbot-hub
 
 [![Convex Component](https://www.convex.dev/components/badge/convex-clawdbot-hub)](https://www.convex.dev/components/convex-clawdbot-hub)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+
+<strong>Message hub backend for ClawdBot</strong>
+
+Webhook processing • Session management • Conversation history • Multi-gateway support
+
+[View Demo](#-live-demo) • [Documentation](#-setup) • [API Reference](#-api-reference)
+
+</div>
+
+---
 
 Message hub backend for [ClawdBot](https://clawd.bot) — webhook processing, session management, conversation history, and multi-gateway support. Built as a [Convex Component](https://docs.convex.dev/components).
 
@@ -185,10 +199,18 @@ const hub = new ClawdBotHub<Id<"users">, Id<"channels">>(
 const hub = new ClawdBotHub<string, string>(components.clawdbotHub);
 ```
 
-## Demo
+## 🚀 Live Demo
 
-[Live Demo](https://clawdbot-hub-demo.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-blue?style=for-the-badge)](https://clawdbot-hub-demo.vercel.app)
+
+[See the demo in action →](https://clawdbot-hub-demo.vercel.app)
 
 ## License
 
 MIT
+
+---
+
+<div align="center">
+Built with ❤️ for Convex | <a href="https://www.convex.dev/">Convex</a> • <a href="https://docs.convex.dev/components">Components</a> • <a href="https://github.com/get-convex">GitHub</a>
+</div>
